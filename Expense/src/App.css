@@ -5,17 +5,12 @@
 
 }
 body{
-    background-color:  hsl(27, 66%, 92%)
+    background-color:  hsl(27, 66%, 92%);
+    min-height: 100vh;
+    place-items:center;
+    display: grid;
+}
 
-}
-.App{
-    width: 440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 0 auto;
-}
 .BalanceBox{
     position: relative;
     display: flex;
